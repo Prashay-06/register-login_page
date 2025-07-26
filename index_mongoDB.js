@@ -14,8 +14,8 @@ app.use(express.json());
 
 mongoose.connect(// "your data here",
     {
-    // useNewUrlParser: true,
-    // useUnifiedTopology: true,
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
 }).then(()=>{
     console.log("Connected to MongoDB");
 }).catch((err)=>{
