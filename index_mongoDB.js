@@ -12,7 +12,8 @@ const PORT = 5000;
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb+srv://prashayjoonmc24b06004:Arthur1995@cluster0.4nprgz3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",{
+mongoose.connect(// "your data here",
+    {
     // useNewUrlParser: true,
     // useUnifiedTopology: true,
 }).then(()=>{
